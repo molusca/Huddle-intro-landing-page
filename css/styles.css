@@ -1,0 +1,169 @@
+body {
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    background: url(../images/bg-mobile.svg) no-repeat;
+    background-size: contain;
+    padding: 2rem 1rem;
+}
+
+.logo {
+    max-width: 137px;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 1.5rem auto;
+}
+
+.mockups {
+    margin: 1.5rem auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.title {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 2.5rem 1.5rem 1rem 1.5rem;
+}
+
+.paragraph {
+    color: white;
+    line-height: 1.5;
+    padding: 1rem 1.2rem;
+}
+
+.register-button {
+    background-color: white;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 0px 6px 10px -8px black;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    margin: 1rem auto;
+    padding: .6rem 5rem;
+}
+
+.register-button:active,
+.register-button:focus,
+.register-button:hover {
+    background-color: #B0A84C;
+    color: white;
+    transition: 200ms;
+}
+
+.social-media-container {
+    display: block;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.social-media {
+    fill: white;
+    margin: 0 .5rem
+}
+
+@media screen and (min-width: 880px) {   
+    .container {
+        background-size: cover;
+        padding: 2rem 3.5rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {     
+    .container {
+        background: url(../images/bg-desktop.svg) no-repeat;
+        background-size: contain;
+    }
+    
+    .logo {
+        max-width: 180px;
+    }
+    
+    .content-box {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1rem 1.5rem 0 1.5rem;
+        text-align: left;
+    }
+
+    .mockups {
+        margin: 1.5rem auto;
+    }
+
+    .text-box {
+        margin-left: 2rem;
+        text-align: left;
+        width: 80%;
+    }
+    
+    .title {
+        font-size: 1.5rem;
+        padding: 2.5rem 2rem 1rem 1.2rem;
+    }
+    
+    .paragraph {
+        color: white;
+        padding: 0 1.2rem;
+        font-size: .9rem;
+    }
+    
+    .register-button {
+        margin: 1rem 1.2rem;
+        padding: .6rem 3rem;
+    }
+
+    .social-media-container {
+        text-align: right;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {             
+    .title {
+        font-size: 2rem;
+        padding: 3.5rem 2rem 1rem 1.2rem;
+    }
+}
+
+@media screen and (min-width: 1350px) {  
+    .title {
+        font-size: 2rem;
+        padding: 3.5rem 8rem 1rem 1.2rem;
+    }
+
+    .paragraph {
+        font-size: 1.1rem;
+    }
+}
+
+.attribution {
+    font-size: 11px; 
+    text-align: center;
+    color: white; 
+}
+
+.attribution a { 
+    color: white;
+    text-decoration: none;
+}
+
+.attribution a:active,
+.attribution a:focus,
+.attribution a:hover { 
+    color: #342163;
+    text-decoration: underline;
+}
